@@ -1,0 +1,19 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.table th, .table td {
+    vertical-align: middle; /* Center the content */
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f9f9f9; /* Stripe effect for the table */
+}
+
+.table-dark th {
+    background-color: #343a40; /* Darker header for better contrast */
+}
+
+#searchInput {
+    width: 300px; /* Width for search input */
+}
